@@ -12,4 +12,4 @@ forgot to comment out ssl
 works and has register and login
 
 1454
-creating githubrepository
+creating github repository
