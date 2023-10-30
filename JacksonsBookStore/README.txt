@@ -38,5 +38,19 @@ um had to go into layout and change the link from bootstrap.min.css to -> bootst
 it works execpt the navbar has not updated its still white and should be purple according the the bootswatch preview
 
 1546 
-oh the navbar was still white beacuse I didn't get to that yet just needed to update layout
+oh the navbar was still white beacuse I didn't get to that yet in the tutorial just needed to update layout
 it is purple now
+
+2023-10-30
+1132
+testing... still works
+now adding 3rd party tools from CSS_JS.txt file to _Layout
+
+1144
+adding dropdown
+not showing items
+properties of Dropdown link where cut off in tutorial going to find solution
+
+1229
+found the missing properties from a post on stackexchange from october 1st 2021
+data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
