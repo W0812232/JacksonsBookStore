@@ -106,3 +106,7 @@ and I had to modify the path and now the css is working again
 
 0242
 adding new area admin like the customer area
+
+0255
+got to end.. it looks fine 
+ um adding new user doesnt work though
