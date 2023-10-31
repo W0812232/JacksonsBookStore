@@ -79,3 +79,13 @@ now working on models
 error.cshtml has error need to rerferance the other projects
 trying to figureout how 
 figured it out thought i had to edit the error.cshtml but just needed to referance the projects in this one
+continuing
+
+0058
+modifying startup
+errors with ApplicationDbContext
+fixed by adding using JacksonsBookStore.DataAccess.Data;
+
+0105
+also error with ErrorViewModel in homecontroller 
+had to replace all referance of ErrorViewModel to acturatly link it

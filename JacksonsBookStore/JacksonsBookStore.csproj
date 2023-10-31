@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\JacksonsBooks.DataAccess\JacksonsBooks.DataAccess.csproj" />
     <ProjectReference Include="..\JacksonsBooks.Models\JacksonsBooks.Models.csproj" />
+    <ProjectReference Include="..\JacksonsBooks.Utility\JacksonsBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>
