@@ -96,3 +96,13 @@ AHHHH it made a new txt file
 
 0142 
 moving homecontroller to customer folder
+and home folder to folder in customer folder
+
+testing... and now there is no css
+
+0240 
+got the css to work after adding a copie of _ViewStart to the Areas Customer folder 
+and I had to modify the path and now the css is working again
+
+0242
+adding new area admin like the customer area

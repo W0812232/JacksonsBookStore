@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace JacksonsBookStore.Controllers
+namespace JacksonsBookStore.Area.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
