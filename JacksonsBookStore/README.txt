@@ -54,3 +54,6 @@ properties of Dropdown link where cut off in tutorial going to find solution
 1229
 found the missing properties from a post on stackexchange from october 1st 2021
 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+
+2312
+made the 3 new projects
