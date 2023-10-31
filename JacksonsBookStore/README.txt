@@ -57,3 +57,20 @@ data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
 
 2312
 made the 3 new projects
+installed 
+Microsoft.EntityFrameworkCore.Relational 5.0.17
+Microsoft.EntityFrameworkCore.SqlServer 5.0.17
+
+2023-10-23
+0012
+ApplicationDbContext errors:
+needed to instal
+Microsoft.AspNetCore.Identity.EntityFrameworkCore 5.0.17
+and 
+changed namespace 
+
+0023 
+removing all Class1.cs
+project built
+
+now working on models
