@@ -74,3 +74,8 @@ removing all Class1.cs
 project built
 
 now working on models
+
+0039
+error.cshtml has error need to rerferance the other projects
+trying to figureout how 
+figured it out thought i had to edit the error.cshtml but just needed to referance the projects in this one
