@@ -89,3 +89,10 @@ fixed by adding using JacksonsBookStore.DataAccess.Data;
 0105
 also error with ErrorViewModel in homecontroller 
 had to replace all referance of ErrorViewModel to acturatly link it
+
+0131
+adding area Customer
+AHHHH it made a new txt file
+
+0142 
+moving homecontroller to customer folder
