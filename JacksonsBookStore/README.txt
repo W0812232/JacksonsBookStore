@@ -110,3 +110,22 @@ adding new area admin like the customer area
 0255
 got to end.. it looks fine 
  um adding new user doesnt work though
+
+2023-11-13
+1134
+forgot to save last time worked on
+
+1142
+Ok creating category class
+going to add migration
+last time I had a problem last time because I forgot to change the defualt project
+
+1150
+Just saw my migation was full when its supposed to be empty and relized I forgot to add 
+the default identity migration first so im copying and pasting Category.cs and README to note pad 
+then restarting bc idk I i can fix it
+
+1155
+if wrong defualt project is selected it gives a larger error
+BookStoreDefault added
+updating database
