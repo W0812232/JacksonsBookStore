@@ -128,4 +128,11 @@ then restarting bc idk I i can fix it
 1155
 if wrong defualt project is selected it gives a larger error
 BookStoreDefault added
+20231113165958_BookStoreDefault
 updating database
+
+1205
+Added Category class
+Added new and empty migration AddCategoryToDb
+adding to DbContext to implement cateory 
+ 
