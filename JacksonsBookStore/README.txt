@@ -139,3 +139,7 @@ adding to DbContext to implement cateory
 1219 
 not letting me re add migration because im already have a migration with that name
 Had to make one with different name and it works and is filled with the values from the Category class
+
+1235
+part 2
+
