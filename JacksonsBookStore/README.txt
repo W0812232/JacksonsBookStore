@@ -156,3 +156,28 @@ it was because i removed 'using System.Linq' at some point,.. readed it now
 Id from:'s => s.Id == category.Id', is now errors
 it was because Id is not in category, id is though hop that doesnt mess anything else up
 
+1011
+took nap
+Parameter DynamicParameters in ISP_Call giving error
+to fix add 'using Dapper'
+
+1031
+Adding to SP_Call
+in the constructor GetDbConnection is giving error
+fix by using Microsoft.EntityFrameworkCore;
+
+1053
+SP_Call, SqlConnection is giving error, added using Microsoft.Data.SqlClient and it fixed
+also getting error for procedureName
+
+oh its becuase it is supposed to be procedurename,
+ok it works now
+
+1143
+services.AddScoped<IUnitOfWork, UnitOfWork>();
+they are both giving error
+added proper using statments for them UnitOfWork is ok...
+but still having problem with IUnitOfWork giving error
+Oh It says inaccessable due to protection
+ok now it works after i make it a public interface
+
