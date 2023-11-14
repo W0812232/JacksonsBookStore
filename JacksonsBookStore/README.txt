@@ -181,3 +181,18 @@ but still having problem with IUnitOfWork giving error
 Oh It says inaccessable due to protection
 ok now it works after i make it a public interface
 
+1315
+Just added the Category index view 
+now going to run and see if it works crossing fingers.
+
+runs! aaaa category inst there!!! :(
+updating database
+nothing chaged....
+need a castegory tab at top changing _Layout
+link didnt work
+ah just review example and needed to change the area direction to Admin
+it works now yay!
+
+1339
+Adding Category to Content management
+still works
