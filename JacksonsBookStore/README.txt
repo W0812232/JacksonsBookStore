@@ -21,6 +21,7 @@ testing break points F9
 going to register a user to website
 User:     a@a.com
 Passcode: Star123!
+works
 
 1519
 registered user and implied imgrations
@@ -196,3 +197,18 @@ it works now yay!
 1339
 Adding Category to Content management
 still works
+
+1454
+20231113172923_AddCategoryToDb2 
+
+1458
+now removing buttons from index in category they will be in newly added js file category.js
+
+1527
+testing
+getting thrown exception in Repository.cs: throw new NotImplementedException();
+when I tried to continue I got waring from the browser: DataTables warning: table id=tblData - Ajax error. For more information about this error, please see http://datatables.net/tn/7
+
+1532
+Also the table just says loading I think its either the atable cant connect or its beacuse their are no entries
+ima continue then see if it fixes itself

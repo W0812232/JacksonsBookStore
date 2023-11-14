@@ -1,4 +1,5 @@
 ﻿using JacksonsBooks.DataAccess.Repository.IRepository;
+using JacksonsBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,21 @@ namespace JacksonsBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+
+      /*  public IActionResult Upsert(int?id) //action method for upsert
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            //this is for edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+
+            return View();
+            
+        } */
 
         //API calls here 
         #region API CALLS
