@@ -143,3 +143,16 @@ Had to make one with different name and it works and is filled with the values f
 1235
 part 2
 
+2023-11-14
+0230
+Adding repository
+Adding Category Repository class and interface
+
+0416 
+FirstOrDefault is erroring
+it was because i removed 'using System.Linq' at some point,.. readed it now
+
+0424
+Id from:'s => s.Id == category.Id', is now errors
+it was because Id is not in category, id is though hop that doesnt mess anything else up
+
