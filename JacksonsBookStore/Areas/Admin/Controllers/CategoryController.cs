@@ -21,7 +21,7 @@ namespace JacksonsBookStore.Areas.Admin.Controllers
             return View();
         }
 
-      /*  public IActionResult Upsert(int?id) //action method for upsert
+        public IActionResult Upsert(int?id) //action method for upsert
         {
             Category category = new Category();
             if (id == null)
@@ -30,11 +30,14 @@ namespace JacksonsBookStore.Areas.Admin.Controllers
                 return View(category);
             }
             //this is for edit
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());    
+            if (category == null)
+            {
+                return NotFound();
+            }
             return View();
             
-        } */
+        }
 
         //API calls here 
         #region API CALLS

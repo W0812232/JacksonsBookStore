@@ -210,5 +210,19 @@ getting thrown exception in Repository.cs: throw new NotImplementedException();
 when I tried to continue I got waring from the browser: DataTables warning: table id=tblData - Ajax error. For more information about this error, please see http://datatables.net/tn/7
 
 1532
-Also the table just says loading I think its either the atable cant connect or its beacuse their are no entries
-ima continue then see if it fixes itself
+Also the table just says loading I think its either the table cant connect or its beacuse their are no entries
+im going to continue then see if it fixes itself
+
+2023-11-23
+0339
+Applying code to activate Edit, Delete and Create using upsert action in category controller
+adding upsert view and adding html from class files 
+
+0418 
+within the shared layouts adding a partial view for the EDIT | BACK called "_CreateAndBackToListButton";
+not letting me add view...
+It was because the project was running. 
+creating view now. I dont know how to make it a partial view.
+
+0441
+now adding another view "_EditAndBackToListButton";
