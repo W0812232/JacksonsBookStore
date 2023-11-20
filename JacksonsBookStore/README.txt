@@ -226,3 +226,26 @@ creating view now. I dont know how to make it a partial view.
 
 0441
 now adding another view "_EditAndBackToListButton";
+
+0446
+modify Upset.cshtml view file 
+
+"@if(Model.Id != null)" Id is giving me an error
+I figured it out its because Id needs to be id to match my Category.cs
+
+adding asp-action "Upsert" to Index.cshtml
+
+running application, still getting thrown exception when going to category page
+
+0515
+adding section to call validation.
+testing
+didnt work spelt the scripts name wrong
+testing again to see if validation works
+tried creating category with no name got back: "The Category Name field is required" (under input field in red text)
+it works!
+
+0538
+Adding to CategoryController to valadate and for deleting
+adding onclick=Delete("/Admin/Category/Delete/${data}") to the delete button on category.js
+now adding the delete function to the category.js
