@@ -383,4 +383,11 @@ Adding referance to Produces and coverType in database in ApplicationDbContext
 
 
 0911
-Didnt real instruction right need to add CoverType class to models
+Didnt read instruction right need to add CoverType class to models
+
+1019
+Made ICoverTypeRepsotiory And CoverTypeRepository made them the same as ICategoryRepository and CatagoryRepository
+but changed Category words to CoverType
+Adding to UnitOfWork
+the implemented IUnitOfWork has an error in UnitOfWork
+got error becasue  I had 'ICoverTypeRepository CoverTypeRepository' where CoverTypeRepository should have been just CoverType
