@@ -308,3 +308,6 @@ adding code from class files
 
 forgot to make IRepository an inerface copying its code and remaking it
 okay its readded and I pasted its code back in
+
+0248
+Adding CategoryRepository and its interface
