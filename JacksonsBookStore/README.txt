@@ -351,3 +351,17 @@ tried to run it go same error as before I reset just wasted 5 hours annoying
 0548
 added IAction result to the controller
 adding Upsert view with code from class files
+
+0550
+Added Partial views
+modifying upsert
+modifying index
+adding valitadtion to upsert
+
+0612
+creating upsert post action method in CategoryController
+adding void save() method to IUnitOfWork
+
+0618
+Added HttpDelete to categoryController to implement a delete method
+and adding delete functionality to the JavaScript
