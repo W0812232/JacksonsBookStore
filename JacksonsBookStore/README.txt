@@ -318,3 +318,10 @@ install package dapper
 adding methods to SP_Call
 implementing ISP_Call to SP_Call
 getting error with SqlConnection need to add using statment using Microsoft.Data.SqlClient;
+
+0415
+Adding Unit of work interface and class
+registering it in start up 
+AddScoped<IUnitOfWork, UnitOfWork> is giving an error
+adding using statements to startup, helped but now has another error
+had to Implement IUnitOfWork in UnitOfWork
