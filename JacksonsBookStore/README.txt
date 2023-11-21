@@ -325,3 +325,29 @@ registering it in start up
 AddScoped<IUnitOfWork, UnitOfWork> is giving an error
 adding using statements to startup, helped but now has another error
 had to Implement IUnitOfWork in UnitOfWork
+
+
+0505
+Added Empty Controllers directery to the Admin directory
+Added CategoryController controller 
+Add Category directory in views folder
+
+0518
+Adding Index view to the category directory and adding code from class files
+running application
+
+0523
+relizing i didnt make a link to the Category view adding that now to the dropdown
+In Index adding buttons for editing and deleting categorys(just visual)
+testing...
+they are there!
+
+0535
+Deleting the code for the buttons adding Javascript 'category' from class files
+add @section to call the category.js
+
+tried to run it go same error as before I reset just wasted 5 hours annoying 
+
+0548
+added IAction result to the controller
+adding Upsert view with code from class files
