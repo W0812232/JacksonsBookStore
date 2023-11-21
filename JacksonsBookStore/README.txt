@@ -365,3 +365,22 @@ adding void save() method to IUnitOfWork
 0618
 Added HttpDelete to categoryController to implement a delete method
 and adding delete functionality to the JavaScript
+
+0627
+so idk i just finished part 2 again and still doesnt add to categories just have to move on i think i have 9 hours
+
+======================
+Part 3
+======================
+2023-11-21
+1/3
+
+0703
+Add new class product in models 
+CoverType is giving error?
+
+Adding referance to Produces and coverType in database in ApplicationDbContext
+
+
+0911
+Didnt real instruction right need to add CoverType class to models
