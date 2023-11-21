@@ -472,3 +472,7 @@ Also made CoverType its own JavaScript file bc i think i was supposed to do that
 
 1312
 Now just need to add a link to product 
+
+1320 
+just tested and realized the nav is getting packed I think ima add out links to the drop down
+ya just tested it way nicer now also added another divider to dived them all
