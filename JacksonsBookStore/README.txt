@@ -297,3 +297,14 @@ adding category to ApplicationDbContext
 
 adding migration to use category.cs called AddCategoryToDb2
 Timestamp: 20231121064212_AddCategoryToDb2
+
+0149
+Repository 2.2
+
+Adding Repository directory, IRepository directory, IRepository.cs and its functions
+now adding Repository 
+adding using statments
+adding code from class files
+
+forgot to make IRepository an inerface copying its code and remaking it
+okay its readded and I pasted its code back in
