@@ -439,3 +439,30 @@ adding Product to repository making IRepository interface changing the update me
 need to add them too UnitOfWork and IUnitOfWork
 done that and 0 errors rn
 moving on
+
+===========
+Part 3
+2/3
+===========
+Add product controller and add the IWebHosting call to upload images on the server inside wwwroot
+now need a viewModel inside the models project to hold the Product object and select list for category and coverType
+SelectListItem is giving error
+
+1235 
+fixed! had to Install Microsoft.AspNetCore.Mvc.ViewFeatures package and now it works
+
+1238
+now modifying the productcontroller so it calls the ProductVM view model
+all the assigned variable have an error ahhh
+
+1254
+the error has because on line 32: ProductVM productVM = new ProductVM()| I accidentally had a ';' at the end
+its fixed now
+
+1258
+adding product view directory
+added new index and copy and pasted the code from Index in the category directory
+added new properties to the table: Title, ISBN, Price, Author and, category
+link to product.js
+
+now need to make product.js just copying category.js and modify it for those new properties
