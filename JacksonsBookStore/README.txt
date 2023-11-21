@@ -465,4 +465,10 @@ added new index and copy and pasted the code from Index in the category director
 added new properties to the table: Title, ISBN, Price, Author and, category
 link to product.js
 
+1310
 now need to make product.js just copying category.js and modify it for those new properties
+also new to change width size so they all fit.
+Also made CoverType its own JavaScript file bc i think i was supposed to do that.
+
+1312
+Now just need to add a link to product 
