@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace JacksonsBookStore.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CoverTypeController : Controller
     {
-        public IActionResult Index()
-        {
+        
         private readonly IUnitOfWork _unitOfWork;
         public CoverTypeController(IUnitOfWork unitOfWork)
         {

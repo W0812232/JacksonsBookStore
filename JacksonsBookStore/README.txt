@@ -398,3 +398,23 @@ TimeStamp: 20231121153320_AddCoverTypeToDb
 Update Database
 work on crud for CoverType
 navbar
+
+1047
+made new CoverType Controller same as Category controller but with values replaced
+need to make new view file for index and upsert
+index() is giving error in the controller
+oh its because i had two index methodss on acciedent
+
+1103
+testing...
+link isnt working....
+
+1112
+found issue I forgot to add [Area("Admin")] to top of CoverTypeController
+
+still getting thrown exception where going to link:
+"Microsoft.Data.SqlClient.SqlException: 'Invalid object name 'Categories'.'"
+i ont even know how because this isnt even categorys
+
+then when i try to make new cover type I get:
+"SqlException: Invalid object name 'CoverTypes'."
