@@ -418,3 +418,24 @@ i ont even know how because this isnt even categorys
 
 then when i try to make new cover type I get:
 "SqlException: Invalid object name 'CoverTypes'."
+
+
+1124
+-------------
+added AddProductToDb migration
+Timestamp: 20231121162356_AddProductToDb
+-------------
+
+1128
+I dont see the databases
+adding new validation to product model
+
+1138
+adding new migration with the validation
+Timestamp: 20231121164058_AddValidationToProduct
+
+1146
+adding Product to repository making IRepository interface changing the update methed
+need to add them too UnitOfWork and IUnitOfWork
+done that and 0 errors rn
+moving on
