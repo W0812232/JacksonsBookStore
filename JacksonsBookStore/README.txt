@@ -289,3 +289,11 @@ but i still got the tables i need
 
 0125
 adding Category.cs and its values
+
+0138
+adding new migration AddCategoryToDb
+
+adding category to ApplicationDbContext 
+
+adding migration to use category.cs called AddCategoryToDb2
+Timestamp: 20231121064212_AddCategoryToDb2
