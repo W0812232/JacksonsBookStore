@@ -311,3 +311,10 @@ okay its readded and I pasted its code back in
 
 0248
 Adding CategoryRepository and its interface
+
+0339
+Adding SP_Call and its interface
+install package dapper
+adding methods to SP_Call
+implementing ISP_Call to SP_Call
+getting error with SqlConnection need to add using statment using Microsoft.Data.SqlClient;
