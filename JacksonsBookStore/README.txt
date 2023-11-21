@@ -391,3 +391,10 @@ but changed Category words to CoverType
 Adding to UnitOfWork
 the implemented IUnitOfWork has an error in UnitOfWork
 got error becasue  I had 'ICoverTypeRepository CoverTypeRepository' where CoverTypeRepository should have been just CoverType
+
+1030 
+now need to creat migration
+TimeStamp: 20231121153320_AddCoverTypeToDb
+Update Database
+work on crud for CoverType
+navbar
