@@ -476,3 +476,39 @@ Now just need to add a link to product
 1320 
 just tested and realized the nav is getting packed I think ima add out links to the drop down
 ya just tested it way nicer now also added another divider to dived them all
+
+2023-11-28
+0048
+Okay just downloaded Visual studio on laptop because I wasnt able to create tables on pc, something with the database
+testing
+omg its so slow but it works
+but my cover list and category list are being shared on both pages...
+actually its just category being shared on both
+
+0059
+Okay found the problem was that i forgot to change the CoverType.js at all when i made it
+had to change referances to category to be cover.. now the covertype veiw works properly
+oh yeah still need to finish 3/3 part 3
+
+============
+part 3
+3/3
+============
+
+0126 
+adding upsert.cs to product getting code from class files
+
+0131
+need to make textbox with tiny.cloud
+made account adding the API key
+
+0141
+added rest of code to add function to valide input
+and if empty display alert
+
+testing...
+
+0152
+The form is there..
+although not letting me create new product, it doesnt add anything
+also the page said "category list" and "create categories" but I fixed It to say product for both
