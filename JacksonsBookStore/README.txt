@@ -536,3 +536,9 @@ oh? and now it filled the books into the table with the information it has, titl
 0511
 IDK The price still doesnt work and now when selecting covertype for book it gives the options from categories
 so late need to get some sleep.
+
+1441
+Okay relized I forgot to fix category and coverTypes becuase right now I can't delete 
+
+1507
+changed object names in project.js to propernames now it works and table fills

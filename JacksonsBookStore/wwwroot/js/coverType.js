@@ -20,10 +20,10 @@ function loadDataTable() {
                                 <a href="/Admin/CoverType/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
                                     <i class="fas fa-edit"></i>&nbsp;
                                 </a>
-                                <a onclick=Delete("/Admin/CoverType/Delete/${data}")class="btn btn-danger text-white" style="cursor:pointer">
-                                    <i class="fas fa-trash-alt"></i>&nbsp;
-                                </a>
-                            </div>
+                                
+                                <a onclick=Delete("/Admin/CoverType/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
                             `;
                 }, "width": "40%"
             }
