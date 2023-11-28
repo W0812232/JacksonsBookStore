@@ -512,3 +512,27 @@ testing...
 The form is there..
 although not letting me create new product, it doesnt add anything
 also the page said "category list" and "create categories" but I fixed It to say product for both
+
+0208
+In wwwroot added directory images and sub directory product
+
+0212
+was supposed to uncomment product upsert post action method but I realised it is already uncommented
+
+0233
+Error:
+"DataTables warning: table id=tblData - Requested unknown parameter 'title' for row 0, 
+column 0. For more information about this error, please see http://datatables.net/tn/4"
+
+need to find where this is but idk
+
+0346
+now is on price idk what changed 
+""DataTables warning: table id=tblData - Requested unknown parameter 'price' for row 0,
+column 2. For more information about this error, please see http://datatables.net/tn/4
+
+oh? and now it filled the books into the table with the information it has, title isbn and author
+
+0511
+IDK The price still doesnt work and now when selecting covertype for book it gives the options from categories
+so late need to get some sleep.
