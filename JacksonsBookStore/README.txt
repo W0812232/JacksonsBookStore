@@ -556,3 +556,9 @@ but when making new book the covertype drop down still shows categories
 0219
 Found in Product Upsert the drop down list was set to CategoryId and CategoryList instead of CoverTypeId and CoverTypeList
 changed and testing... It Works!!
+
+0327
+trying to figure out how to populate product database
+
+0356
+going to remove the buttons at bottom of category and covertype views.
