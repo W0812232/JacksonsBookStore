@@ -542,3 +542,17 @@ Okay relized I forgot to fix category and coverTypes becuase right now I can't d
 
 1507
 changed object names in project.js to propernames now it works and table fills
+
+
+===================
+Part 4
+===================
+2023-12-05
+0211
+Testing to make sure it still works.. 
+it works..
+but when making new book the covertype drop down still shows categories
+
+0219
+Found in Product Upsert the drop down list was set to CategoryId and CategoryList instead of CoverTypeId and CoverTypeList
+changed and testing... It Works!!
